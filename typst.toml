@@ -8,7 +8,7 @@ license = "https://opensource.org/license/mit"
 description = "The official Thesis Template from the Usability and Interaction Technology Laboratory (UniTyLab) of the Heilbronn University (HHN)"
 
 homepage = "https://www.hs-heilbronn.de/en"
-repository = ""
+repository = "https://github.com/Ferrys93de/UniTyLab-Thesis-Template"
 keywords = ["hhn", "hochschule heilbronn", "heilbronn university", "unitylab", "thesis", "documentation"]
 categories = ["thesis", "report"]
 exclude = [""]
