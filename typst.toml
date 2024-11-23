@@ -5,7 +5,7 @@ entrypoint = "Template/config.typ"
 
 authors = ["@Ferrys93de"]
 license = "https://opensource.org/license/mit"
-description = "The official Thesis Template from the Usability and Interaction Technology Laboratory (UniTyLab) of the Heilbronn University (HHN)"
+description = "The (not yet) official Thesis Template from the Usability and Interaction Technology Laboratory (UniTyLab) of the Heilbronn University (HHN)"
 
 homepage = "https://www.hs-heilbronn.de/en"
 repository = "https://github.com/Ferrys93de/UniTyLab-Thesis-Template"
@@ -14,6 +14,6 @@ categories = ["thesis", "report"]
 exclude = [""]
 
 [template]
-path = "Studi"
-entrypoint = "Document.typ"
-thumbnail = "Template/00-Title/HHN_Logo_EN_slim.png"
+path = "/"
+entrypoint = "Studi/Document.typ"
+thumbnail = "thumbnail.png"
