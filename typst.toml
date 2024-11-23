@@ -1,0 +1,19 @@
+[package]
+name = "hhn-unitylab-thesis"
+version = "0.0.1"
+entrypoint = "config.typ"
+
+authors = ["@Ferrys93de"]
+license = "https://opensource.org/license/mit"
+description = "Heilbronn University - UniTyLab - Thesis Template"
+
+homepage = "https://www.hs-heilbronn.de/en"
+repository = ""
+keywords = ["hhn", "hochschule heilbronn", "heilbronn university", "unitylab", "thesis", "documentation"]
+categories = ["thesis", "report"]
+exclude = [""]
+
+[template]
+path = "Studi"
+entrypoint = "Document.typ"
+thumbnail = "Template/00-Title/HHN_Logo_EN_slim.png"
