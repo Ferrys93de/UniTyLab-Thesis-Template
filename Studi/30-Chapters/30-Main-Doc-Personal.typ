@@ -1,9 +1,9 @@
-// Imports
 #import "../../Template/config.typ": *
 #import "../../Template/82-struct-main.typ": *
 #show: doc-main.with()
 
 // Document Tutorial
+// Comment out if not needed anymore
 // =================================================================
 #pagebreak()
 #include "../90-Document/92-Tutorial.typ"

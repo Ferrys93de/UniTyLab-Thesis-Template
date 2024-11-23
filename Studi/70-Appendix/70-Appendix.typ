@@ -33,10 +33,6 @@
   [#underline[Appendix]<appendix>]
 ) 
 
-//= Appendix <appendix>
-
-
-
 // ==================================================================
 
 = MY STUFF GOES HERE!

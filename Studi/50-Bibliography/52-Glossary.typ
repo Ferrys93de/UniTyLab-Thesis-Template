@@ -1,9 +1,11 @@
-//#import "@preview/glossarium:0.5.1": make-glossary, print-glossary, gls, glspl
 #import "../../Template/config.typ": *
 
 
+// Variables
 #let h-spacer = h(0.5cm)
 
+
+// Glossary
 #let entry-list = (
   (
     key: "gpu",

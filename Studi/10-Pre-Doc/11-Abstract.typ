@@ -1,4 +1,3 @@
-// Abstract - Required
 = Abstract
 This is my Abstract
 
