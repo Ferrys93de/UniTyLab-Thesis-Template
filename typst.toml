@@ -1,11 +1,11 @@
 [package]
-name = "UniTyLab-Thesis-Template"
+name = "hhn-unitylab-thesis-template"
 version = "0.0.1"
 entrypoint = "Template/config.typ"
 
 authors = ["@Ferrys93de"]
 license = "https://opensource.org/license/mit"
-description = "The (not yet) official Thesis Template from the Usability and Interaction Technology Laboratory (UniTyLab) of the Heilbronn University (HHN)"
+description = "The official Thesis Template from the Usability and Interaction Technology Laboratory (UniTyLab) of the Heilbronn University (HHN)"
 
 homepage = "https://www.hs-heilbronn.de/en"
 repository = "https://github.com/Ferrys93de/UniTyLab-Thesis-Template"
