@@ -81,9 +81,9 @@
 // Display Title and Authors
 #stack(
   dir: ttb,
-  [#v(2fr, weak: true)],
-  titleAligned,
   [#v(1fr, weak: true)],
+  titleAligned,
+  [#v(0.5fr, weak: true)],
   [
     #underline[Supervision] \
     #name-supervisor1 \
@@ -91,5 +91,5 @@
   ],
   [#v(1fr, weak: true)],
   authos-grid(authors),
-  [#v(1fr, weak: true)],
+  [#v(0.5fr, weak: true)],
 )

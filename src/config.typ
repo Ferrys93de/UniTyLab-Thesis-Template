@@ -5,6 +5,7 @@
 
 // Import Template Packages
 // =================================================================
+#import "format-appendix.typ": *
 #import "format-doc-general.typ": *
 #import "format-doc-main.typ": *
 #import "format-doc-post.typ": *
