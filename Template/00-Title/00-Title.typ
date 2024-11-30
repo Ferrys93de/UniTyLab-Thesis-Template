@@ -1,4 +1,4 @@
-#import "../../Studi/90-Document/91-Doc-Info.typ": *
+#import "../90-Document/91-Doc-Info.typ": *
 
 // Page
 #set page(footer: context {

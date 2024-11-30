@@ -1,7 +1,7 @@
 [package]
 name = "hhn-unitylab-thesis-template"
 version = "0.0.1"
-entrypoint = "Template/config.typ"
+entrypoint = "src/config.typ"
 
 authors = ["@Ferrys93de"]
 license = "https://opensource.org/license/mit"
@@ -14,6 +14,6 @@ categories = ["thesis", "report"]
 exclude = [""]
 
 [template]
-path = "/"
-entrypoint = "Studi/Document.typ"
+path = "template"
+entrypoint = "90-Document/90-Document.typ"
 thumbnail = "thumbnail.png"
