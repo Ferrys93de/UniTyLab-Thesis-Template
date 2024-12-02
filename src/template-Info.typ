@@ -27,6 +27,6 @@
     Leading: #font-leading \
     Language Settings: #lang 
     
-    #link("sadfa")[Typst Universe Package]
+    #link("https://typst.app/universe/package/hhn-unitylab-thesis-template")[Typst Universe Package]
   ]
 }

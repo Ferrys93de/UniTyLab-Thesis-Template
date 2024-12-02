@@ -1,9 +1,4 @@
-#import "../../src/config.typ": *
-
-
-// Variables
-#let h-spacer = h(0.5cm)
-
+#import "@preview/hhn-unitylab-thesis-template:0.0.1": *
 
 // Glossary
 #let entry-list = (

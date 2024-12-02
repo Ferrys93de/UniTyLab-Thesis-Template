@@ -1,6 +1,3 @@
-#import "../../src/config.typ": *
-
-
 #pagebreak()
 #include "41-Results.typ"
 #include "42-Discussion.typ"

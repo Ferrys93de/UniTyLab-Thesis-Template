@@ -1,12 +1,4 @@
-// Introduction - Required
-// Import Template Config and Utilities
-#import "../../src/config.typ": *
-
-// Import Personal Packages
-
-
-// Import Typst Universe Packages
-
+#import "@preview/hhn-unitylab-thesis-template:0.0.1": *
 
 = Introduction
 This is my introduction

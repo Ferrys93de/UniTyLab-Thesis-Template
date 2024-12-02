@@ -1,37 +1,36 @@
-// Import Typst Universe Packages - Drawing and Diagrams
+// Drawing and Diagrams
 // =================================================================
-// cetz - https://typst.app/universe/package/cetz
-#import "@preview/cetz:0.3.1": *
-
-// fletcher - https://typst.app/universe/package/fletcher
-#import "@preview/fletcher:0.5.2" as fletcher: diagram, node, edge
-#import fletcher.shapes: diamond
-
-// timeliney - Gantt Charts - https://typst.app/universe/package/timeliney
-#import "@preview/timeliney:0.1.0": *
+#import "@preview/cetz:0.3.1": * // cetz - https://typst.app/universe/package/cetz
+#import "@preview/fletcher:0.5.2" as fletcher: diagram, node, edge, shapes
+#import fletcher.shapes: diamond // fletcher - https://typst.app/universe/package/fletcher
+#import "@preview/timeliney:0.1.0": * // timeliney - Gantt Charts - https://typst.app/universe/package/timeliney
+#import "@preview/circuiteria:0.1.0": * // https://typst.app/universe/package/circuiteria
+#import "@preview/chronos:0.2.0" as chronos: * // https://typst.app/universe/package/chronos
 
 
 
-// Import Typst Universe Packages - Code
+// Tables
 // =================================================================
-// codly - https://typst.app/universe/package/codly
-#import "@preview/codly:1.0.0": *
-
-// codly-languages - https://typst.app/universe/package/codly-languages/
-#import "@preview/codly-languages:0.1.1": *
+#import "@preview/tablem:0.1.0": * // https://typst.app/universe/package/tablem
+#import "@preview/tablex:0.0.9": * // https://typst.app/universe/package/tablex
+#import "@preview/dining-table:0.1.0": * // https://typst.app/universe/package/dining-table
 
 
 
-// Import Typst Universe Packages - Bibliography
+// Code
 // =================================================================
-// glossarium - Glossary - https://typst.app/universe/package/glossarium
-#import "@preview/glossarium:0.5.1": make-glossary, register-glossary, print-glossary, gls, glspl
-
-// Acronyms 
-// TODO
+#import "@preview/codly:1.0.0": * // codly - https://typst.app/universe/package/codly
+#import "@preview/codly-languages:0.1.1": * // codly-languages - https://typst.app/universe/package/codly-languages/
 
 
-// Import Typst Universe Packages - Formating
+
+// Bibliography
 // =================================================================
-// wrap-it - https://typst.app/universe/package/wrap-it
-#import "@preview/wrap-it:0.1.1": wrap-content
+#import "@preview/glossarium:0.5.1": * // glossarium - Glossary - https://typst.app/universe/package/glossarium
+// Acronyms TODO
+
+
+
+// Formating
+// =================================================================
+#import "@preview/wrap-it:0.1.1": wrap-content // wrap-it - https://typst.app/universe/package/wrap-it
