@@ -1,5 +1,6 @@
 // General Configuration Template
-#import "@preview/hhn-unitylab-thesis-template:0.0.1": *
+#import "../../src/config.typ": *
+//#import "@preview/unitylab-thesis-template:0.0.1": *
 #show: format-doc-general.with()
 
 
@@ -10,6 +11,9 @@
 
 // Title
 #include "../00-Title/00-Title.typ"
+
+// Import Glossary
+#include "../50-Bibliography/52-Glossary.typ"
 
 // Pre-Document
 #include "../80-Structure/81-struct-pre.typ"

@@ -16,7 +16,8 @@
   show outline.entry.where(): item => { 
     context {    
       if item.element.supplement == [Appendix] {
-        item.body + box(width: 1fr,item.fill) + [A] + item.page
+        //item.element.body + box(width: 1fr,item.fill) + [A] + item.page() + linebreak()
+        item.indented(item.prefix(), item.inner())
       }
       else {item}
     }
@@ -26,12 +27,12 @@
   // --------------------------------------------------------
   show outline.entry.where(level: 1,): item => { 
    
-    if item.body.has("children") {
-      if item.body.children.at(0) == [Figure] { return item }
-      if item.body.children.at(0) == [Table] { return item }
-      if item.body.children.at(0) == [Diagram] { return item }
-      if item.body.children.at(0) == [Code Snippet] { return item }
-      if item.body.children.at(0) == [Callout] { return item }
+    if item.element.body.has("children") {
+      if item.element.body.children.at(0) == [Figure] { return item }
+      if item.element.body.children.at(0) == [Table] { return item }
+      if item.element.body.children.at(0) == [Diagram] { return item }
+      if item.element.body.children.at(0) == [Code Snippet] { return item }
+      if item.element.body.children.at(0) == [Callout] { return item }
     }
     
     v(11pt, weak: true)

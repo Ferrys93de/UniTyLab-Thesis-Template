@@ -1,8 +1,8 @@
-#let template-version = version(0, 0, 1)
+#let template-version = version(0, 0, 2)
 #let template-date = datetime.today().display("[day]. [month repr:long] [year]")
 #let template-info = [*Template Version #template-version from #template-date*]
 
-#let template-licence = link("https://opensource.org/license/mit")[MIT]
+#let template-license = link("https://opensource.org/license/mit")[MIT]
 #let template-copyright-year = "2024"
 #let template-copyright-holder = "Ferdinand Burkhardt"
 
@@ -18,7 +18,7 @@
     
     = Template Information
     Version: #template-info \
-    Licence: #template-licence \
+    License: #template-license \
     Copyright Year: #template-copyright-year \
     Copyright Holder: #template-copyright-holder 
     

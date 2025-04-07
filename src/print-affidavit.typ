@@ -3,16 +3,6 @@
 
 #let sign(author, doc-date) = {
   
-  let fun = underline(
-    emph(
-      text(
-        size: 13pt,
-        weight: "medium",
-        function + ":"
-      )
-    )
-  )
-  
   let sign = rect(
     width: 95%,
     height: 3em,

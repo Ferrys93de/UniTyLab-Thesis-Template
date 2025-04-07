@@ -1,12 +1,13 @@
-#import "@preview/hhn-unitylab-thesis-template:0.0.1": *
+#import "../../src/config.typ": *
+//#import "@preview/unitylab-thesis-template:0.0.1": *
 
 
 = Document Tutorial
 == About this Template
 This template was created with the intention of offering students who complete work in the UniTyLab of the #link("https://www.hs-heilbronn.de/en")[Heilbronn University] a simple and clean solution for written submissions such as project documentation or theses.
 
-If you are from another university you are also welcomed to use this template.
-Simply change the title images accordingly to your universtiy in the folder "00-Title".
+If you are from another university, you are also welcomed to use this template.
+Simply change the title images accordingly to your university in the folder "00-Title".
 
 #template-info
 
@@ -16,14 +17,14 @@ Typst therefore provides extensive #link("https://typst.app/docs/")[Documentatio
 
 === Getting started 
 The folder "90-Document" contains the files "90-Document.typ", "91-Doc-Infos.typ" as well as this tutorial. 
-If you open this folder you can see an open eye on the file "90-Document.typ", indicading that this file is previewed on the right. 
+If you open this folder, you can see an open eye on the file "90-Document.typ", indicating that this file is previewed on the right. 
 "90-Document.typ" serves as the main file of your project.
 
-To personalize this document open "91-Doc-Infos.typ" and fill in your data. 
+To personalize this document, open "91-Doc-Infos.typ" and fill in your data. 
 The title screen should now have changed according to your inputs. 
 
-=== Mandetory Chapters
-This template contains a number of files/chapters which are mandetory in every project. 
+=== Mandatory Chapters
+This template contains a number of files/chapters which are mandatory in every project. 
 These files are found in the folders 10, 20, and 40.
 
 === Personal Chapters
@@ -33,15 +34,15 @@ Remember to "\#include" them into the file "30-Main-Doc-Personal.typ"
 
 === Bibliography 
 Found in the folder "50-Bibliography".
-Your bibliography containing your sources as well as your glossary.
+Your bibliography, containing your sources as well as your glossary.
 Both must be processed appropriately for a successful submission.
 
 === Post-Document
-Containing the affidavid, which has to be signed!
+Containing the affidavit, which has to be signed!
 You can add other pages, such as acknowledgements, dedications or similar.
 
 === Appendix
-Everything beloging to the appendix can be copied into this folder and imported in "70-Appendix.typ".
+Everything belonging to the appendix can be copied into this folder and imported in "70-Appendix.typ".
 You are free to create more files, folders, etc.
 
 === Structure
@@ -49,14 +50,14 @@ This folder simply helps structuring the thesis and applying the template of the
 It is recommended to not touch this folder. 
 
 === Assets
-All your needed assets, like images, can be copied and used form the folder assets.
+All your needed assets, like images, can be copied and used from the folder assets.
 
 
 === Utilities 
 A folder which you can use to store utilities you like.
 
 === Language
-For now the template only supports English. 
+For now, the template only supports English. 
 
 
 == Management of Sources
