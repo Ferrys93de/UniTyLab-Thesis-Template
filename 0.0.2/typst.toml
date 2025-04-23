@@ -18,7 +18,6 @@ keywords = [
     "documentation",
 ]
 categories = ["thesis", "report"]
-exclude = [""]
 
 [template]
 path = "template"
